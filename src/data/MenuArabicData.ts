@@ -1,98 +1,4 @@
-// // Importing images
-// import specialBg from "../assets/background/special.jpg";
-// import burgerBg from "../assets/background/burger.jpg";
-// import drinksBg from "../assets/background/drink.jpg";
-// import sandwishBg from "../assets/background/sandwish.jpg";
-// import Appetizers from "../assets/background/Appetizers.png";
-// import Tortilla from "../assets/background/Tortilla.png";
-// import hotdog from "../assets/MainPic/sandwishes/hotdog.jpg";
 
-// // Define MenuItem and Category interfaces
-// export interface MenuItem {
-//   title: string;
-//   image: string;
-// }
-
-// export interface Category {
-//   title: string;
-//   items: MenuItem[];
-//   backgroundImage: string;
-// }
-
-// // Exporting the categories data
-// export const ArabicCategories: Category[] = [
-//   {
-//     title: "بكجات بيستو",
-//     items: [
-//       { title: "بكج  البروذرز (شخصين)", image: hotdog },
-//       { title: "بكج الشلة (٣ اشخاص)", image: hotdog },
-//       { title: "بكج عائلي (٤ اشخاص)", image: hotdog },
-//     ],
-//     backgroundImage: specialBg,
-//   },
-//   {
-//     title: "برچر ",
-//     items: [
-//       { title: "كلاسيك برچر 160 غرام", image: hotdog },
-//       { title: "سماش  برچر 200 غرام", image: hotdog },
-//       { title: "سماش  برچر 300 غرام", image: hotdog },
-//       { title: "برچر بيستو (بالفقع والبشاميل)", image: hotdog },
-//       { title: "برچر دجاج مقرمش", image: hotdog },
-//       { title: "برچر شنيتزل", image: hotdog },
-//     ],
-//     backgroundImage: burgerBg,
-//   },
-//   {
-//     title: "رول التورتيلا",
-//     items: [
-//       { title: "رول فيليه دجاج", image: hotdog },
-//       { title: "فيليه دجاج بالجبنة", image: hotdog },
-//       { title: "فيليه دجاج بالفقع", image: hotdog },
-//       { title: "رول شنيتسل", image: hotdog },
-
-//     ],
-//     backgroundImage: Tortilla,
-//   },
-//   {
-//     title: "الساندويتشات",
-//     items: [
-//       { title: "ساندويتش شنيتزل", image: hotdog },
-//       { title: "ساندويتش فيليه الدجاج", image: hotdog },
-//       { title: "ساندويتش البيض", image: hotdog },
-//       { title: "ساندويتش التونة", image: hotdog },
-//       { title: "ساندويتش جبنة صفرا", image: hotdog },
-//       { title: "ساندويتش جبنة بيضة", image: hotdog },
-//       { title: "ساندويتش بستراما", image: hotdog },
-//       { title: "ساندويتش نقنيق", image: hotdog },
-
-//     ],
-//     backgroundImage: sandwishBg,
-//   },
-//   {
-//     title: "المقبلات",
-//     items: [
-//       { title: "أجنحة الدجاج", image: hotdog },
-//       { title: "ناجتس بيستو ", image: hotdog },
-//       { title: "أعواد مقرمشة", image: hotdog },
-//       { title: "مكس ل 1", image: hotdog },
-//       { title: "مكس لشخصين", image: hotdog },
-//       { title: "مكس ثلاثي", image: hotdog },
-   
-//     ],
-//     backgroundImage: Appetizers,
-//   },
-
-
-
-//   {
-//     title: "مشروبات",
-//     items: [
-//       { title: "Cheesecake", image: hotdog },
-//       { title: "Chocolate", image: hotdog },
-//     ],
-//     backgroundImage: drinksBg,
-//   },
-// ];
 
 import specialBg from "../assets/background/special.jpg";
 import burgerBg from "../assets/background/burger.jpg";
@@ -100,28 +6,35 @@ import drinksBg from "../assets/background/drink.jpg";
 import sandwishBg from "../assets/background/sandwish.jpg";
 import Appetizers from "../assets/background/Appetizers.png";
 import Tortilla from "../assets/background/Tortilla.png";
-import hotdog from "../assets/MainPic/sandwishes/hotdog.jpg";
+import Soon from "../assets/Soon.png";
 
 //Burgers
 //MushroomBurger
-import mushroomBurgerMain from "../assets/MainPic/Mushroomburger/Main.png"
-import mushroomBurger1 from "../assets/MainPic/Mushroomburger/1.jpg"
-import mushroomBurger2 from "../assets/MainPic/Mushroomburger/2.jpg"
-import mushroomBurger3 from "../assets/MainPic/Mushroomburger/3.jpg"
-import mushroomBurger4 from "../assets/MainPic/Mushroomburger/4.jpg"
-import mushroomBurger5 from "../assets/MainPic/Mushroomburger/5.jpg"
-import mushroomBurger6 from "../assets/MainPic/Mushroomburger/6.jpg"
-
+import mushroomBurgerMain from "../assets/MainPic/Mushroomburger/Main.png";
+import mushroomBurger1 from "../assets/MainPic/Mushroomburger/1.png";
+import mushroomBurger2 from "../assets/MainPic/Mushroomburger/2.png";
+import mushroomBurger3 from "../assets/MainPic/Mushroomburger/3.png";
+import mushroomBurger4 from "../assets/MainPic/Mushroomburger/4.png";
 //Shnitzel Burger
-import shnitselBurgerMain from "../assets/MainPic/shnetselBurger/main.png"
-import shnetselBurger1 from "../assets/MainPic/shnetselBurger/1.jpg"
-import shnetselBurger2 from "../assets/MainPic/shnetselBurger/2.jpg"
-import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.jpg"
-import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.jpg"
-import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.jpg"
-import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.jpg"
-import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.jpg"
-
+import shnitselBurgerMain from "../assets/MainPic/shnetselBurger/main.png";
+import shnetselBurger1 from "../assets/MainPic/shnetselBurger/1.png";
+import shnetselBurger2 from "../assets/MainPic/shnetselBurger/2.png";
+import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.png";
+import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.png";
+import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.png";
+import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.png";
+import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.png";
+//burger160classic
+import burger160Main from "../assets/MainPic/burger160classic/burger160classic.png";
+import burger160_1 from "../assets/MainPic/burger160classic/1.png";
+import burger160_2 from "../assets/MainPic/burger160classic/2.png";
+import burger160_3 from "../assets/MainPic/burger160classic/3.png";
+import burger160_4 from "../assets/MainPic/burger160classic/4.png";
+////burger320classic
+import burger320Main from "../assets/MainPic/burger320classic/burger320classic.png";
+import burger320_1 from "../assets/MainPic/burger320classic/1.png";
+import burger320_2 from "../assets/MainPic/burger320classic/2.png";
+import burger320_3 from "../assets/MainPic/burger320classic/3.png";
 
 
 
@@ -142,20 +55,21 @@ export const ArabicCategories: Category[] = [
   {
     title: "بكجات بيستو",
     items: [
-      { title: "بكج  البروذرز (شخصين)", images: [hotdog] },
-      { title: "بكج الشلة (٣ اشخاص)", images: [hotdog] },
-      { title: "بكج عائلي (٤ اشخاص)",images: [hotdog] },
+      { title: "بكج  البروذرز (شخصين)", images: [Soon] },
+      { title: "بكج الشلة (٣ اشخاص)", images: [Soon] },
+      { title: "بكج عائلي (٤ اشخاص)",images: [Soon] },
     ],
     backgroundImage: specialBg,
   },
   {
     title: "برچر ",
     items: [
-      { title: "كلاسيك برچر 160 غرام", images: [hotdog] },
-      { title: "سماش  برچر 200 غرام", images: [hotdog] },
-      { title: "سماش  برچر 300 غرام", images: [hotdog] },
-      { title: "برچر بيستو (بالفقع والبشاميل)", images: [mushroomBurgerMain,mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4,mushroomBurger5, mushroomBurger6 ] },
-      { title: "برچر دجاج مقرمش", images: [hotdog] },
+      { title: "كلاسيك برچر 160 غرام", images: [burger160Main,burger160_1,burger160_2,burger160_3,burger160_4]  },
+      { title: "كلاسيك برچر 320 غرام", images: [burger320Main,burger320_1,burger320_2,burger320_3] },
+      { title: "سماش  برچر 200 غرام", images: [Soon] },
+      { title: "سماش  برچر 300 غرام", images: [Soon] },
+      { title: "برچر بيستو (بالفقع والبشاميل)", images: [mushroomBurgerMain,mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4] },
+      { title: "برچر دجاج مقرمش", images: [Soon] },
       { title: "برچر شنيتزل", images: [shnitselBurgerMain,shnetselBurger1,shnetselBurger2,shnetselBurger3,shnetselBurger4,shnetselBurger5, shnetselBurger6,shnetselBurger7] },
     ],
     backgroundImage: burgerBg,
@@ -163,10 +77,10 @@ export const ArabicCategories: Category[] = [
   {
     title: "رول التورتيلا",
     items: [
-      { title: "رول فيليه دجاج", images: [hotdog] },
-      { title: "فيليه دجاج بالجبنة", images: [hotdog] },
-      { title: "فيليه دجاج بالفقع", images: [hotdog] },
-      { title: "رول شنيتسل", images: [hotdog] },
+      { title: "رول فيليه دجاج", images: [Soon] },
+      { title: "فيليه دجاج بالجبنة", images: [Soon] },
+      { title: "فيليه دجاج بالفقع", images: [Soon] },
+      { title: "رول شنيتسل", images: [Soon] },
 
     ],
     backgroundImage: Tortilla,
@@ -174,14 +88,14 @@ export const ArabicCategories: Category[] = [
   {
     title: "الساندويتشات",
     items: [
-      { title: "ساندويتش شنيتزل", images: [hotdog] },
-      { title: "ساندويتش فيليه الدجاج",images: [hotdog] },
-      { title: "ساندويتش البيض", images: [hotdog] },
-      { title: "ساندويتش التونة", images: [hotdog] },
-      { title: "ساندويتش جبنة صفرا", images: [hotdog] },
-      { title: "ساندويتش جبنة بيضة", images: [hotdog] },
-      { title: "ساندويتش بستراما",images: [hotdog] },
-      { title: "ساندويتش نقنيق", images: [hotdog] },
+      { title: "ساندويتش شنيتزل", images: [Soon] },
+      { title: "ساندويتش فيليه الدجاج",images: [Soon] },
+      { title: "ساندويتش البيض", images: [Soon] },
+      { title: "ساندويتش التونة", images: [Soon] },
+      { title: "ساندويتش جبنة صفرا", images: [Soon] },
+      { title: "ساندويتش جبنة بيضة", images: [Soon] },
+      { title: "ساندويتش بستراما",images: [Soon] },
+      { title: "ساندويتش نقنيق", images: [Soon] },
 
     ],
     backgroundImage: sandwishBg,
@@ -189,12 +103,12 @@ export const ArabicCategories: Category[] = [
   {
     title: "المقبلات",
     items: [
-      { title: "أجنحة الدجاج", images: [hotdog] },
-      { title: "ناجتس بيستو ", images: [hotdog] },
-      { title: "أعواد مقرمشة", images: [hotdog] },
-      { title: "مكس ل 1", images: [hotdog] },
-      { title: "مكس لشخصين", images: [hotdog] },
-      { title: "مكس ثلاثي", images: [hotdog] },
+      { title: "أجنحة الدجاج", images: [Soon] },
+      { title: "ناجتس بيستو ", images: [Soon] },
+      { title: "أعواد مقرمشة", images: [Soon] },
+      { title: "مكس ل 1", images: [Soon] },
+      { title: "مكس لشخصين", images: [Soon] },
+      { title: "مكس ثلاثي", images: [Soon] },
    
     ],
     backgroundImage: Appetizers,
@@ -205,8 +119,8 @@ export const ArabicCategories: Category[] = [
   {
     title: "مشروبات",
     items: [
-      { title: "CocaCola",images: [hotdog] },
-      { title: "Sprite", images: [hotdog] },
+      { title: "CocaCola",images: [Soon] },
+      { title: "Sprite", images: [Soon] },
     ],
     backgroundImage: drinksBg,
   },
