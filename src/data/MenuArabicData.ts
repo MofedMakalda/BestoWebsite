@@ -10,32 +10,31 @@ import Soon from "../assets/Soon.png";
 
 //Burgers
 //MushroomBurger
-import mushroomBurgerMain from "../assets/MainPic/Mushroomburger/Main.png";
-import mushroomBurger1 from "../assets/MainPic/Mushroomburger/1.png";
-import mushroomBurger2 from "../assets/MainPic/Mushroomburger/2.png";
-import mushroomBurger3 from "../assets/MainPic/Mushroomburger/3.png";
-import mushroomBurger4 from "../assets/MainPic/Mushroomburger/4.png";
+import mushroomBurgerMain from "../assets/MainPic/Mushroomburger/Main.jpg";
+import mushroomBurger1 from "../assets/MainPic/Mushroomburger/1.jpg";
+import mushroomBurger2 from "../assets/MainPic/Mushroomburger/2.jpg";
+import mushroomBurger3 from "../assets/MainPic/Mushroomburger/3.jpg";
+import mushroomBurger4 from "../assets/MainPic/Mushroomburger/4.jpg";
 //Shnitzel Burger
-import shnitselBurgerMain from "../assets/MainPic/shnetselBurger/main.png";
-import shnetselBurger1 from "../assets/MainPic/shnetselBurger/1.png";
-import shnetselBurger2 from "../assets/MainPic/shnetselBurger/2.png";
-import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.png";
-import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.png";
-import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.png";
-import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.png";
-import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.png";
+import shnitselBurgerMain from "../assets/MainPic/shnetselBurger/main.jpg";
+import shnetselBurger1 from "../assets/MainPic/shnetselBurger/1.jpg";
+import shnetselBurger2 from "../assets/MainPic/shnetselBurger/2.jpg";
+import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.jpg";
+import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.jpg";
+import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.jpg";
+import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.jpg";
+import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.jpg";
 //burger160classic
-import burger160Main from "../assets/MainPic/burger160classic/burger160classic.png";
-import burger160_1 from "../assets/MainPic/burger160classic/1.png";
-import burger160_2 from "../assets/MainPic/burger160classic/2.png";
-import burger160_3 from "../assets/MainPic/burger160classic/3.png";
-import burger160_4 from "../assets/MainPic/burger160classic/4.png";
+import burger160Main from "../assets/MainPic/burger160classic/burger160classic.jpg";
+import burger160_1 from "../assets/MainPic/burger160classic/1.jpg";
+import burger160_2 from "../assets/MainPic/burger160classic/2.jpg";
+import burger160_3 from "../assets/MainPic/burger160classic/3.jpg";
+import burger160_4 from "../assets/MainPic/burger160classic/4.jpg";
 ////burger320classic
-import burger320Main from "../assets/MainPic/burger320classic/burger320classic.png";
-import burger320_1 from "../assets/MainPic/burger320classic/1.png";
-import burger320_2 from "../assets/MainPic/burger320classic/2.png";
-import burger320_3 from "../assets/MainPic/burger320classic/3.png";
-
+import burger320Main from "../assets/MainPic/burger320classic/burger320classic.jpg";
+import burger320_1 from "../assets/MainPic/burger320classic/1.jpg";
+import burger320_2 from "../assets/MainPic/burger320classic/2.jpg";
+import burger320_3 from "../assets/MainPic/burger320classic/3.jpg";
 
 
 // Define MenuItem and Category interfaces
