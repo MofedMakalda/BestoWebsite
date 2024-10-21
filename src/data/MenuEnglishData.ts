@@ -23,7 +23,7 @@ import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.jpg";
 import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.jpg";
 import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.jpg";
 import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.jpg";
-import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.jpg";
+
 //burger160classic
 import burger160Main from "../assets/MainPic/burger160classic/burger160classic.jpg";
 import burger160_1 from "../assets/MainPic/burger160classic/1.jpg";
@@ -87,7 +87,7 @@ export const EnglishCategories: Category[] = [
           shnetselBurger4,
           shnetselBurger5,
           shnetselBurger6,
-          shnetselBurger7,
+          
         ],
       },
     ],

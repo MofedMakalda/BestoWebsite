@@ -23,7 +23,7 @@ import shnetselBurger3 from "../assets/MainPic/shnetselBurger/3.jpg";
 import shnetselBurger4 from "../assets/MainPic/shnetselBurger/4.jpg";
 import shnetselBurger5 from "../assets/MainPic/shnetselBurger/5.jpg";
 import shnetselBurger6 from "../assets/MainPic/shnetselBurger/6.jpg";
-import shnetselBurger7 from "../assets/MainPic/shnetselBurger/7.jpg";
+
 //burger160classic
 import burger160Main from "../assets/MainPic/burger160classic/burger160classic.jpg";
 import burger160_1 from "../assets/MainPic/burger160classic/1.jpg";
@@ -69,7 +69,7 @@ export const ArabicCategories: Category[] = [
       { title: "سماش  برچر 300 غرام", images: [Soon] },
       { title: "برچر بيستو (بالفقع والبشاميل)", images: [mushroomBurgerMain,mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4] },
       { title: "برچر دجاج مقرمش", images: [Soon] },
-      { title: "برچر شنيتزل", images: [shnitselBurgerMain,shnetselBurger1,shnetselBurger2,shnetselBurger3,shnetselBurger4,shnetselBurger5, shnetselBurger6,shnetselBurger7] },
+      { title: "برچر شنيتزل", images: [shnitselBurgerMain,shnetselBurger1,shnetselBurger2,shnetselBurger3,shnetselBurger4,shnetselBurger5, shnetselBurger6] },
     ],
     backgroundImage: burgerBg,
   },
