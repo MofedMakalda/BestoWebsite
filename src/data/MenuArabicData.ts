@@ -244,7 +244,7 @@ export const ArabicCategories: Category[] = [
   {
     title: "الساندويتشات",
     items: [
-      { title: "ساندويتش شنيتزل", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
+      { title: "ساندويتش شنيتسل", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
       { title: "ساندويتش الكباب", images: [KebapMain,Kebap_1,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
       { title: "ساندويتش فيليه الدجاج",images: [ChickenMain,Chicken_1,Chicken_2,Chicken_3, Chicken_4, Chicken_5, Chicken_6] },
       { title: "ساندويتش البيض", images: [Soon] },
