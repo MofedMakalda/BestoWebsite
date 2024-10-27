@@ -323,7 +323,7 @@ const LandingPageEnglish: React.FC = () => {
         ))}
        {/* ------------------------------------------------------------------------------------- */}
        {ArabicDrinkCategories.map((category, index) => (
-          <div key={index} style={{ marginBottom: "0", padding: "0", position: "relative" }}>
+          <div key={index} style={{ marginTop: "15px", padding: "0", position: "relative" }}>
             {/* Main Category Button */}
             <div
               style={{
