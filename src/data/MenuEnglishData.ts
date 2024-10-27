@@ -176,6 +176,35 @@ export const burger320Main = "https://res.cloudinary.com/dlubjzies/image/upload/
 export const burger320_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534871/burger320classic_vz3tmu.jpg";
 export const burger320_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534869/1_o5futj.jpg";
 export const burger320_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/3_rmeykf.jpg";
+// Sandwiches------------------------------------------------------------------------------------------------------------
+// Sandwich kebap
+export const KebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/main_q0akzi.jpg";
+export const Kebap_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534871/burger320classic_vz3tmu.jpg";
+export const Kebap_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031848/8_ahinrj.jpg";
+export const Kebap_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/4_hhrxph.jpg";
+export const Kebap_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/9_cexkja.jpg";
+export const Kebap_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031844/8485159_cxbjr8.jpg";
+export const Kebap_6 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/5_qyueyq.jpg";
+export const Kebap_7 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/2_hwyzj7.jpg";
+export const Kebap_8 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/10_qwtetd.jpg";
+// Sandwich Chicken
+export const ChickenMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031726/3_fmqwua.jpg";
+export const Chicken_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031727/11_y2peho.jpg";
+export const Chicken_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031726/14_hz6phu.jpg";
+export const Chicken_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031723/4_xlod3q.jpg";
+export const Chicken_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031725/2_a0xxj5.jpg";
+export const Chicken_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031723/529259_wsrloe.jpg";
+export const Chicken_6 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031721/18_sx9zpq.jpg";
+// Sandwich Shnitzel
+export const ShnitzelMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031869/3_ztskjm.jpg";
+export const Shnitzel_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031871/2_khwk8i.jpg";
+export const Shnitzel_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/7_l6vtl1.jpg";
+export const Shnitzel_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/4_dndcv1.jpg";
+export const Shnitzel_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031868/6_wye2zv.jpg";
+export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031875/15_hqaidu.jpg";
+
+
+
 
 // Define MenuItem and Category interfaces
 export interface MenuItem {
@@ -246,8 +275,9 @@ export const EnglishCategories: Category[] = [
   {
     title: "Sandwiches",
     items: [
-      { title: "Shnitzel Sandwich", images: [Soon] },
-      { title: "Chick fillet Sandwich", images: [Soon] },
+      { title: "Shnitzel Sandwich", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
+      { title: "Kebap Sandwich",  images: [KebapMain,Kebap_1,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
+      { title: "Chick fillet Sandwich", images: [ChickenMain,Chicken_1,Chicken_2,Chicken_3, Chicken_4, Chicken_5, Chicken_6] },
       { title: "Omlet Sandwich", images: [Soon] },
       { title: "Tuna Sandwich", images: [Soon] },
       { title: "Yellow Cheese Sandwich", images: [Soon] },
