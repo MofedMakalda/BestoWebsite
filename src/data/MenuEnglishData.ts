@@ -188,29 +188,29 @@ export const Smash300_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 
 // Sandwiches------------------------------------------------------------------------------------------------------------
 // Sandwich kebap
-export const KebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/main_q0akzi.jpg";
+export const KebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031844/8485159_cxbjr8.jpg";
 export const Kebap_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031848/8_ahinrj.jpg";
 export const Kebap_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/4_hhrxph.jpg";
 export const Kebap_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/9_cexkja.jpg";
-export const Kebap_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031844/8485159_cxbjr8.jpg";
+export const Kebap_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/main_q0akzi.jpg";
 export const Kebap_6 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/5_qyueyq.jpg";
 export const Kebap_7 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/2_hwyzj7.jpg";
 export const Kebap_8 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031842/10_qwtetd.jpg";
 // Sandwich Chicken
-export const ChickenMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031726/3_fmqwua.jpg";
+export const ChickenMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031721/18_sx9zpq.jpg";
 export const Chicken_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031727/11_y2peho.jpg";
 export const Chicken_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031726/14_hz6phu.jpg";
 export const Chicken_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031723/4_xlod3q.jpg";
 export const Chicken_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031725/2_a0xxj5.jpg";
 export const Chicken_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031723/529259_wsrloe.jpg";
-export const Chicken_6 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031721/18_sx9zpq.jpg";
+export const Chicken_6 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031726/3_fmqwua.jpg";
 // Sandwich Shnitzel
-export const ShnitzelMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031869/3_ztskjm.jpg";
+export const ShnitzelMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/7_l6vtl1.jpg";
 export const Shnitzel_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031871/2_khwk8i.jpg";
 export const Shnitzel_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/7_l6vtl1.jpg";
 export const Shnitzel_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/4_dndcv1.jpg";
 export const Shnitzel_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031868/6_wye2zv.jpg";
-export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031875/15_hqaidu.jpg";
+export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031869/3_ztskjm.jpg";
 
 
 
