@@ -167,7 +167,6 @@ export const burger320_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1
 // Sandwiches------------------------------------------------------------------------------------------------------------
 // Sandwich kebap
 export const KebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/main_q0akzi.jpg";
-export const Kebap_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534871/burger320classic_vz3tmu.jpg";
 export const Kebap_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031848/8_ahinrj.jpg";
 export const Kebap_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/4_hhrxph.jpg";
 export const Kebap_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/9_cexkja.jpg";
@@ -245,7 +244,7 @@ export const ArabicCategories: Category[] = [
     title: "الساندويتشات",
     items: [
       { title: "ساندويتش شنيتسل", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
-      { title: "ساندويتش الكباب", images: [KebapMain,Kebap_1,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
+      { title: "ساندويتش الكباب", images: [KebapMain,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
       { title: "ساندويتش فيليه الدجاج",images: [ChickenMain,Chicken_1,Chicken_2,Chicken_3, Chicken_4, Chicken_5, Chicken_6] },
       { title: "ساندويتش البيض", images: [Soon] },
       { title: "ساندويتش التونة", images: [Soon] },
