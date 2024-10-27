@@ -7,10 +7,10 @@ import CoffeeIcon from '@mui/icons-material/Coffee';
 
 export const Icons = () => {
   return (
-    <Box sx={{display:"flex",marginTop:"20px" ,flexDirection:"row", justifyContent:"flex-start", alignItems:"flex-start"}}>
-        <LocalDiningIcon sx={{ fontSize: 30, color: "orange",  }} />
-        <LunchDiningIcon sx={{ fontSize: 30, color: "orange" }} />
-        <CoffeeIcon sx={{ fontSize: 30, color: "orange" }} />
+    <Box sx={{display:"flex",marginTop:"5px" ,flexDirection:"row", justifyContent:"left", alignItems:"left", width:"100%", position:"absolute", bottom:"5px", left:"5px"}}>
+        <LocalDiningIcon sx={{ fontSize: 15, color: "orange",  }} />
+        <LunchDiningIcon sx={{ fontSize: 15, color: "orange" }} />
+        <CoffeeIcon sx={{ fontSize: 15, color: "orange" }} />
     </Box> 
   )
 }

@@ -100,6 +100,7 @@ const LandingPageEnglish: React.FC = () => {
                           alignItems: "center",
                           backgroundColor: "black",
                           flexGrow: 1,
+                          position:"relative"
                         }}
                       >
                         <Typography
@@ -111,8 +112,20 @@ const LandingPageEnglish: React.FC = () => {
                           }}
                         >
                           {item.title}
+                          <Typography sx={{fontSize:"10px"}}>{item.description}</Typography>
                         </Typography>
-                        <Icons />
+                        <Typography
+                          sx={{
+                            fontWeight: "bold",
+                            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                            color: "orange",
+                            textAlign: "center",
+                            fontSize:"20px"
+                          }}
+                        >
+                          {item.price}
+                        </Typography>
+                        {/* <Icons /> */}
                       </CardContent>
                     </Card>
                   </Box>

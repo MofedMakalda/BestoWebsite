@@ -138,11 +138,11 @@ export const Soon = "https://res.cloudinary.com/dlubjzies/image/upload/v17300322
 
 // Burgers------------------------------------------------------------------------------------------------------------
 // MushroomBurger
-export const mushroomBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534876/Main_mpxemw.jpg";
-export const mushroomBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/1_vpchhv.jpg";
-export const mushroomBurger2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_tqydbd.jpg";
-export const mushroomBurger3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/3_ewzvvk.jpg";
-export const mushroomBurger4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/4_jx4hs4.jpg";
+export const mushroomBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/4_jx4hs4.jpg";
+export const mushroomBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534876/Main_mpxemw.jpg";
+export const mushroomBurger2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/1_vpchhv.jpg";
+export const mushroomBurger3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_tqydbd.jpg";
+export const mushroomBurger4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/3_ewzvvk.jpg";
 // Shnitzel Burger
 export const shnitselBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534865/5_jwgjuf.jpg";
 export const shnetselBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534866/2_jcrhbl.jpg";
@@ -159,10 +159,18 @@ export const burger160_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1
 export const burger160_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534867/3_xhyjlb.jpg";
 export const burger160_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534868/4_udjndu.jpg";
 // burger320classic
-export const burger320Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_uqx1b0.jpg";
+export const burger320Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730049848/Untitled_design_yltdaf.jpg";
 export const burger320_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534871/burger320classic_vz3tmu.jpg";
 export const burger320_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534869/1_o5futj.jpg";
 export const burger320_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/3_rmeykf.jpg";
+// SmashBurger-200g 
+export const Smash200Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048825/MainSmash160_rewapn.jpg";
+export const Smash200_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048847/6_b4sqmh.jpg";
+export const Smash200_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048880/3_mw3vzv.jpg";
+// SmashBurger-300g 
+export const Smash300Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048928/MainSmash360_pqplmq.jpg";
+export const Smash300_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048926/8_f9zofw.jpg";
+
 
 // Sandwiches------------------------------------------------------------------------------------------------------------
 // Sandwich kebap
@@ -197,6 +205,8 @@ export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 export interface MenuItem {
   title: string;
   images: string[];
+  price:string;
+  description?:string;
 }
 
 export interface Category {
@@ -210,61 +220,154 @@ export const ArabicCategories: Category[] = [
   {
     title: "بكجات بيستو",
     items: [
-      { title: "بكج  البروذرز (شخصين)", images: [Soon] },
-      { title: "بكج الشلة (٣ اشخاص)", images: [Soon] },
-      { title: "بكج عائلي (٤ اشخاص)",images: [Soon] },
+      {
+        title: "بكج  البروذرز (شخصين)", images: [Soon],
+        price: ""
+      },
+      {
+        title: "بكج الشلة (٣ اشخاص)", images: [Soon],
+        price: ""
+      },
+      {
+        title: "بكج عائلي (٤ اشخاص)", images: [Soon],
+        price: ""
+      },
     ],
     backgroundImage: specialBg,
   },
   {
     title: "برچر ",
     items: [
-      { title: "كلاسيك برچر 160 غرام", images: [burger160Main,burger160_1,burger160_2,burger160_3,burger160_4]  },
-      { title: "كلاسيك برچر 320 غرام", images: [burger320Main,burger320_1,burger320_2,burger320_3] },
-      { title: "سماش  برچر 200 غرام", images: [Soon] },
-      { title: "سماش  برچر 300 غرام", images: [Soon] },
-      { title: "برچر بيستو (بالفقع والبشاميل)", images: [mushroomBurgerMain,mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4] },
-      { title: "برچر دجاج مقرمش", images: [Soon] },
-      { title: "برچر شنيتزل", images: [shnitselBurgerMain,shnetselBurger1,shnetselBurger2,shnetselBurger3,shnetselBurger4,shnetselBurger5, shnetselBurger6] },
+      {
+        title: "تشيز برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
+        price: "40₪"
+      },
+      {
+        title: "تشيز برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
+        price: "55₪"
+      },
+      {
+        title: "سماش  برچر 200 غرام", images: [Smash200Main, Smash200_1,Smash200_2,],
+        price: "55₪"
+      },
+      {
+        title: "سماش  برچر 300 غرام", images: [Smash300Main,Smash300_1 ],
+        price: "60₪"
+      },
+      {
+        title: "برچر بيستو", images: [mushroomBurgerMain, mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4],
+        price: "55₪",
+        description:"(بالفقع والكريما)"
+      },
+      {
+        title: "برچر دجاج مقرمش", images: [Soon],
+        price: ""
+      },
+      {
+        title: "برچر شنيتزل", images: [shnitselBurgerMain, shnetselBurger1, shnetselBurger2, shnetselBurger3, shnetselBurger4, shnetselBurger5, shnetselBurger6],
+        price: "38₪"
+      },
     ],
     backgroundImage: burgerBg,
   },
-  {
-    title: "رول التورتيلا",
-    items: [
-      { title: "رول فيليه دجاج", images: [Soon] },
-      { title: "فيليه دجاج بالجبنة", images: [Soon] },
-      { title: "فيليه دجاج بالفقع", images: [Soon] },
-      { title: "رول شنيتسل", images: [Soon] },
 
-    ],
-    backgroundImage: Tortilla,
-  },
   {
     title: "الساندويتشات",
     items: [
-      { title: "ساندويتش شنيتسل", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
-      { title: "ساندويتش الكباب", images: [KebapMain,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
-      { title: "ساندويتش فيليه الدجاج",images: [ChickenMain,Chicken_1,Chicken_2,Chicken_3, Chicken_4, Chicken_5, Chicken_6] },
-      { title: "ساندويتش البيض", images: [Soon] },
-      { title: "ساندويتش التونة", images: [Soon] },
-      { title: "ساندويتش جبنة صفرا", images: [Soon] },
-      { title: "ساندويتش جبنة بيضة", images: [Soon] },
-      { title: "ساندويتش بستراما",images: [Soon] },
-      { title: "ساندويتش نقنيق", images: [Soon] },
+      {
+        title: "ساندويتش شنيتسل", images: [ShnitzelMain, Shnitzel_1, Shnitzel_2, Shnitzel_3, Shnitzel_4, Shnitzel_5],
+        price: "38₪"
+      },
+      {
+        title: "ساندويتش الكباب", images: [KebapMain, Kebap_2, Kebap_3, Kebap_4, Kebap_5, Kebap_6, Kebap_7, Kebap_8],
+        price: "40₪"
+      },
+      {
+        title: "ساندويتش فيليه الدجاج", images: [ChickenMain, Chicken_1, Chicken_2, Chicken_3, Chicken_4, Chicken_5, Chicken_6],
+        price: "38₪"
+      },
+      {
+        title: "ساندويتش البيض", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ساندويتش التونة", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ساندويتش جبنة صفرا", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ساندويتش جبنة بيضة", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ساندويتش بستراما", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ساندويتش نقنيق", images: [Soon],
+        price: ""
+      },
 
     ],
     backgroundImage: sandwishBg,
   },
   {
+    title: "رول التورتيلا",
+    items: [
+      {
+        title: "رول فيليه دجاج", images: [Soon],
+        price: "35₪"
+      },
+      {
+        title: "رول  كباب", images: [Soon],
+        price: "38₪"
+      },
+      {
+        title: "فيليه دجاج بالجبنة", images: [Soon],
+        price: "35₪"
+      },
+      {
+        title: "فيليه دجاج بالفقع", images: [Soon],
+        price: "35₪"
+      },
+      {
+        title: "رول شنيتسل", images: [Soon],
+        price: "35₪"
+      },
+
+    ],
+    backgroundImage: Tortilla,
+  },
+  {
     title: "المقبلات",
     items: [
-      { title: "أجنحة الدجاج", images: [Soon] },
-      { title: "ناجتس بيستو ", images: [Soon] },
-      { title: "أعواد مقرمشة", images: [Soon] },
-      { title: "مكس ل 1", images: [Soon] },
-      { title: "مكس لشخصين", images: [Soon] },
-      { title: "مكس ثلاثي", images: [Soon] },
+      {
+        title: "أجنحة الدجاج", images: [Soon],
+        price: ""
+      },
+      {
+        title: "ناجتس بيستو ", images: [Soon],
+        price: ""
+      },
+      {
+        title: "أعواد مقرمشة", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مكس ل 1", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مكس لشخصين", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مكس ثلاثي", images: [Soon],
+        price: ""
+      },
    
     ],
     backgroundImage: Appetizers,
@@ -275,8 +378,22 @@ export const ArabicCategories: Category[] = [
   {
     title: "مشروبات",
     items: [
-      { title: "CocaCola",images: [Soon] },
-      { title: "Sprite", images: [Soon] },
+      {
+        title: "مشروبات غازية", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مشروبات قهوة باردة", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مشروبات عصائر طبيعية", images: [Soon],
+        price: ""
+      },
+      {
+        title: "مشروبات فخفخينا", images: [Soon],
+        price: ""
+      },
     ],
     backgroundImage: drinksBg,
   },

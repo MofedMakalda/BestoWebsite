@@ -151,11 +151,12 @@ export const Soon = "https://res.cloudinary.com/dlubjzies/image/upload/v17295355
 
 // Burgers
 // MushroomBurger
-export const mushroomBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534876/Main_mpxemw.jpg";
-export const mushroomBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/1_vpchhv.jpg";
-export const mushroomBurger2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_tqydbd.jpg";
-export const mushroomBurger3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/3_ewzvvk.jpg";
-export const mushroomBurger4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/4_jx4hs4.jpg";
+export const mushroomBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/4_jx4hs4.jpg";
+export const mushroomBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534876/Main_mpxemw.jpg";
+export const mushroomBurger2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/1_vpchhv.jpg";
+export const mushroomBurger3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_tqydbd.jpg";
+export const mushroomBurger4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534873/3_ewzvvk.jpg";
+
 // Shnitzel Burger
 export const shnitselBurgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534865/5_jwgjuf.jpg";
 export const shnetselBurger1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534866/2_jcrhbl.jpg";
@@ -172,10 +173,19 @@ export const burger160_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1
 export const burger160_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534867/3_xhyjlb.jpg";
 export const burger160_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534868/4_udjndu.jpg";
 // burger320classic
-export const burger320Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/2_uqx1b0.jpg";
+export const burger320Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730049848/Untitled_design_yltdaf.jpg";
 export const burger320_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534871/burger320classic_vz3tmu.jpg";
 export const burger320_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534869/1_o5futj.jpg";
 export const burger320_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1729534872/3_rmeykf.jpg";
+// SmashBurger-160g 
+export const Smash200Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048825/MainSmash160_rewapn.jpg";
+export const Smash200_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048847/6_b4sqmh.jpg";
+export const Smash200_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048880/3_mw3vzv.jpg";
+// SmashBurger-320g 
+export const Smash300Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048928/MainSmash360_pqplmq.jpg";
+export const Smash300_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048926/8_f9zofw.jpg";
+
+
 // Sandwiches------------------------------------------------------------------------------------------------------------
 // Sandwich kebap
 export const KebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031845/main_q0akzi.jpg";
@@ -209,6 +219,9 @@ export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 export interface MenuItem {
   title: string;
   images: string[];
+  price:string;
+  description?:string;
+  
 }
 
 export interface Category {
@@ -222,9 +235,9 @@ export const EnglishCategories: Category[] = [
   {
     title: "Besto’s specials",
     items: [
-      { title: "Brothers Package (2 people)", images: [Soon] },
-      { title: "Friends Package (3 people)", images: [Soon] },
-      { title: "Family Package (4 people)", images: [Soon] },
+      { title: "Brothers Package (2 people)", images: [Soon], price:"Price" },
+      { title: "Friends Package (3 people)", images: [Soon], price:"Price"},
+      { title: "Family Package (4 people)", images: [Soon], price:"Price" },
     ],
     backgroundImage: specialBg,
   },
@@ -232,7 +245,7 @@ export const EnglishCategories: Category[] = [
     title: "Burgers",
     items: [
       {
-        title: "Besto's Burger (With mushrooms)",
+        title: "Besto's Burger",
         images: [
           mushroomBurgerMain,
           mushroomBurger1,
@@ -240,16 +253,15 @@ export const EnglishCategories: Category[] = [
           mushroomBurger3,
           mushroomBurger4,
         ],
+        price: "55₪",
+        description:"(Cream & Mushrooms)"
       },
-      { title: "Classic Burger 160g", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4] },
-      { title: "Classic Burger 320g", images: [burger320Main, burger320_1, burger320_2, burger320_3] },
-      { title: "Smash Burger 200g", images: [Soon] },
-      { title: "Smash Burger 300g", images: [Soon] },
-      { title: "Crispy chicken burger", images: [Soon] },
-      {
-        title: "Shnitzel burger",
-        images: [
-          shnitselBurgerMain,
+      { title: "Cheese Burger 160g", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4], price: "40₪" },
+      { title: "Cheese Burger 320g", images: [burger320Main, burger320_1, burger320_2, burger320_3],price: "55₪" },
+      { title: "Smash Burger 200g", images: [Smash200Main, Smash200_1,Smash200_2,],price: "55₪"},
+      { title: "Smash Burger 300g", images: [Smash300Main,Smash300_1 ], price:"60₪" },
+      { title: "Crispy chicken burger", images: [Soon], price:"" },
+      {title: "Shnitzel burger", images: [shnitselBurgerMain,
           shnetselBurger1,
           shnetselBurger2,
           shnetselBurger3,
@@ -257,52 +269,126 @@ export const EnglishCategories: Category[] = [
           shnetselBurger5,
           shnetselBurger6,
         ],
+        price: "38₪"
       },
     ],
     backgroundImage: burgerBg,
   },
-  {
-    title: "Tortilla roll",
-    items: [
-      { title: "Chick fillet", images: [Soon] },
-      { title: "Cheese chick fillet", images: [Soon] },
-      { title: "Mushroom chick fillet", images: [Soon] },
-      { title: "Shnitzel roll", images: [Soon] },
-    ],
-    backgroundImage: Tortilla,
-  },
+
   {
     title: "Sandwiches",
     items: [
-      { title: "Shnitzel Sandwich", images: [ShnitzelMain,Shnitzel_1,Shnitzel_2,Shnitzel_3,Shnitzel_4,Shnitzel_5] },
-      { title: "Kebap Sandwich",  images: [KebapMain,Kebap_2,Kebap_3,Kebap_4, Kebap_5,Kebap_6,Kebap_7,Kebap_8] },
-      { title: "Chick fillet Sandwich", images: [ChickenMain,Chicken_1,Chicken_2,Chicken_3, Chicken_4, Chicken_5, Chicken_6] },
-      { title: "Omlet Sandwich", images: [Soon] },
-      { title: "Tuna Sandwich", images: [Soon] },
-      { title: "Yellow Cheese Sandwich", images: [Soon] },
-      { title: "White cheese Sandwich", images: [Soon] },
-      { title: "Pastrami Sandwich", images: [Soon] },
-      { title: "Salami Sandwich", images: [Soon] },
+      {
+        title: "Shnitzel Sandwich", images: [ShnitzelMain, Shnitzel_1, Shnitzel_2, Shnitzel_3, Shnitzel_4, Shnitzel_5],
+        price: "38₪"
+      },
+      {
+        title: "Kebap Sandwich", images: [KebapMain, Kebap_2, Kebap_3, Kebap_4, Kebap_5, Kebap_6, Kebap_7, Kebap_8],
+        price: "40₪"
+      },
+      {
+        title: "Chick fillet Sandwich", images: [ChickenMain, Chicken_1, Chicken_2, Chicken_3, Chicken_4, Chicken_5, Chicken_6],
+        price: "38₪"
+      },
+      {
+        title: "Omlet Sandwich", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Tuna Sandwich", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Yellow Cheese Sandwich", images: [Soon],
+        price: ""
+      },
+      {
+        title: "White cheese Sandwich", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Pastrami Sandwich", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Salami Sandwich", images: [Soon],
+        price: ""
+      },
     ],
     backgroundImage: sandwishBg,
   },
   {
+    title: "Tortilla roll",
+    items: [
+      {
+        title: "Chick fillet", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Cheese chick fillet", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Mushroom chick fillet", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Shnitzel roll", images: [Soon],
+        price: ""
+      },
+    ],
+    backgroundImage: Tortilla,
+  },
+  {
     title: "Appetizers",
     items: [
-      { title: "Chicken wings", images: [Soon] },
-      { title: "Besto’s Nuggets", images: [Soon] },
-      { title: "Crispy sticks", images: [Soon] },
-      { title: "Mix for 1", images: [Soon] },
-      { title: "Dbl mix (for 2)", images: [Soon] },
-      { title: "Trio mix (for 3)", images: [Soon] },
+      {
+        title: "Chicken wings", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Besto’s Nuggets", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Crispy sticks", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Mix for 1", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Dbl mix (for 2)", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Trio mix (for 3)", images: [Soon],
+        price: ""
+      },
     ],
     backgroundImage: Appetizers,
   },
   {
     title: "Drinks",
     items: [
-      { title: "Cheesecake", images: [Soon] },
-      { title: "Chocolate", images: [Soon] },
+      {
+        title: "Soft Drinks", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Cold Coffee Drinks", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Natural Juice Drinks", images: [Soon],
+        price: ""
+      },
+      {
+        title: "Fakhfakhina Drinks", images: [Soon],
+        price: ""
+      },
+  
     ],
     backgroundImage: drinksBg,
   },
