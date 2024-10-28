@@ -491,13 +491,16 @@ const LandingPageEnglish: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
 
-   const handleMainCategoryClick = (index: number) => {
-        setOpenMainCategory(openMainCategory === index ? null : index);
-        setOpenSubcategory(null); // Reset subcategory when main category changes
-      };
-  
+
+  const handleMainCategoryClick = (index: number) => {
+    setOpenMainCategory(openMainCategory === index ? null : index);
+    setOpenSubcategory(null); // Reset subcategory when main category changes
+    setOpenCategory(null)
+  };
+
   const handleCategoryClick = (index: number) => {
     setOpenCategory(openCategory === index ? null : index);
+    setOpenMainCategory(null)
   };
   const handleSubcategoryClick = (index: number) => {
         setOpenSubcategory(openSubcategory === index ? null : index);

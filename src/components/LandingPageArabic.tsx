@@ -185,10 +185,11 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArabicCategories, ArabicDrinkCategories } from "../data/MenuArabicData";
 
 const LandingPageEnglish: React.FC = () => {
-
+//For Drinks Category 
   const [openMainCategory, setOpenMainCategory] = useState<number | null>(null); // For main category collapse
   const [openSubcategory, setOpenSubcategory] = useState<number | null>(null); // For subcategory collapse
 
+//For Food Category 
   const [openCategory, setOpenCategory] = useState<number | null>(null);
   const [zoomedImages, setZoomedImages] = useState<string[] | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -198,11 +199,14 @@ const LandingPageEnglish: React.FC = () => {
   const handleMainCategoryClick = (index: number) => {
     setOpenMainCategory(openMainCategory === index ? null : index);
     setOpenSubcategory(null); // Reset subcategory when main category changes
+    setOpenCategory(null)
   };
 
   const handleCategoryClick = (index: number) => {
     setOpenCategory(openCategory === index ? null : index);
+    setOpenMainCategory(null)
   };
+  
   const handleSubcategoryClick = (index: number) => {
         setOpenSubcategory(openSubcategory === index ? null : index);
       };
