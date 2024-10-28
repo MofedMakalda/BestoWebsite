@@ -468,6 +468,7 @@
 
 // export default LandingPageEnglish;
 //------------------------------------------------------------------------------------
+
 import React, { useState } from "react";
 import { 
   Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton 
@@ -479,12 +480,22 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 const LandingPageEnglish: React.FC = () => {
-  const [openCategory, setOpenCategory] = useState<number | null>(null);
-  const [zoomedImages, setZoomedImages] = useState<string[] | null>(null);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const [openMainCategory, setOpenMainCategory] = useState<number | null>(null); // For main category collapse
   const [openSubcategory, setOpenSubcategory] = useState<number | null>(null); // For subcategory collapse
 
 
+
+  const [openCategory, setOpenCategory] = useState<number | null>(null);
+  const [zoomedImages, setZoomedImages] = useState<string[] | null>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+
+   const handleMainCategoryClick = (index: number) => {
+        setOpenMainCategory(openMainCategory === index ? null : index);
+        setOpenSubcategory(null); // Reset subcategory when main category changes
+      };
+  
   const handleCategoryClick = (index: number) => {
     setOpenCategory(openCategory === index ? null : index);
   };
@@ -633,7 +644,7 @@ const LandingPageEnglish: React.FC = () => {
               }}
             >
               <Button
-                onClick={() => handleCategoryClick(index)}
+                onClick={() => handleMainCategoryClick(index)}
                 variant="contained"
                 sx={{
                   zIndex: 1,
@@ -653,7 +664,7 @@ const LandingPageEnglish: React.FC = () => {
             </div>
 
             {/* Collapse for Subcategories */}
-            <Collapse in={openCategory === index}>
+            <Collapse in={openMainCategory === index}>
               {category.subcategories.map((subcategory, subIndex) => (
                 <div key={subIndex} style={{ marginBottom: "10px", padding: "0", position: "relative" }}>
                   <Button
