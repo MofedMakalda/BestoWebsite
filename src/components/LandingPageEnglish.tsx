@@ -478,6 +478,7 @@ import { Header } from "./Header";
 import { EnglishCategories, EnglishDrinkCategories } from "../data/MenuEnglishData";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import Footer from "./Footer";
 
 const LandingPageEnglish: React.FC = () => {
 
@@ -768,6 +769,7 @@ const LandingPageEnglish: React.FC = () => {
           </DialogContent>
         </Dialog>
       </Container>
+      <Footer/>
     </Box>
   );
 };

@@ -180,6 +180,7 @@ import { EnglishCategories, EnglishDrinkCategories } from "../data/MenuEnglishDa
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArabicCategories, ArabicDrinkCategories } from "../data/MenuArabicData";
+import Footer from "./Footer";
 
 const LandingPageEnglish: React.FC = () => {
 //For Drinks Category
@@ -464,6 +465,7 @@ const LandingPageEnglish: React.FC = () => {
           </DialogContent>
         </Dialog>
       </Container>
+      <Footer/>
     </Box>
   );
 };
