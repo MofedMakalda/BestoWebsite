@@ -1,8 +1,6 @@
-
-
 // import React, { useState } from "react";
-// import { 
-//   Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton 
+// import {
+//   Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton
 // } from "@mui/material";
 // import { Icons } from "./icons";
 // import { Header } from "./Header";
@@ -75,8 +73,7 @@
 //                   fontWeight: "bold",
 //                   textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
 //                   fontFamily: "Times New Roman, serif",
-                  
-                  
+
 //                 }}
 //               >
 //                 <Typography variant="h6">{category.title}</Typography>
@@ -174,8 +171,8 @@
 // updated code with drinks
 
 import React, { useState } from "react";
-import { 
-  Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton 
+import {
+  Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton
 } from "@mui/material";
 import { Icons } from "./icons";
 import { Header } from "./Header";
@@ -185,16 +182,14 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArabicCategories, ArabicDrinkCategories } from "../data/MenuArabicData";
 
 const LandingPageEnglish: React.FC = () => {
-//For Drinks Category 
+//For Drinks Category
   const [openMainCategory, setOpenMainCategory] = useState<number | null>(null); // For main category collapse
   const [openSubcategory, setOpenSubcategory] = useState<number | null>(null); // For subcategory collapse
 
-//For Food Category 
+//For Food Category
   const [openCategory, setOpenCategory] = useState<number | null>(null);
   const [zoomedImages, setZoomedImages] = useState<string[] | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-
 
   const handleMainCategoryClick = (index: number) => {
     setOpenMainCategory(openMainCategory === index ? null : index);
@@ -206,7 +201,7 @@ const LandingPageEnglish: React.FC = () => {
     setOpenCategory(openCategory === index ? null : index);
     setOpenMainCategory(null)
   };
-  
+
   const handleSubcategoryClick = (index: number) => {
         setOpenSubcategory(openSubcategory === index ? null : index);
       };
@@ -234,10 +229,7 @@ const LandingPageEnglish: React.FC = () => {
     }
   };
 
-
-
 // ----------------------------------------------------
-
 
   return (
     <Box sx={{ backgroundColor: "#fcba03", paddingBottom: "2px", margin: "0" }}>
@@ -272,8 +264,7 @@ const LandingPageEnglish: React.FC = () => {
                  fontWeight: "bold",
                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
                  fontFamily: "Times New Roman, serif",
-                 
-                 
+
                }}
              >
                <Typography variant="h6">{category.title}</Typography>
@@ -479,7 +470,115 @@ const LandingPageEnglish: React.FC = () => {
 
 export default LandingPageEnglish;
 
+// Test my abilities
 
+// import React, { useState } from "react";
+// import { ArabicCategories } from "../data/MenuArabicData";
+// import {
+//   Box,
+//   Button,
+//   Card,
+//   CardContent,
+//   CardMedia,
+//   Collapse,
+//   Container,
+//   Typography,
+// } from "@mui/material";
+// import { Header } from "./Header";
+// import { EnglishCategories } from "../data/MenuEnglishData";
 
+// export const LandingPageArabic = () => {
+//   const [openCategory, setOpenCategory] = useState<number | null>(null);
+//   const [zoomedImages, setZoomedImages] = useState<string[] | null>(null);
+//   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+//   const handleOpenCategory = (index: number) => {
+//     if (openCategory === index) setOpenCategory(null);
+//     else setOpenCategory(index);
+//   };
 
+//   return (
+//     <div
+//       style={{
+//         display: "flex",
+//         flexDirection: "column",
+//         color: "white",
+//         backgroundColor: "orange",
+//       }}
+//     >
+//       <Header />
+//       {ArabicCategories.length > 0 ? (
+//         <Container>
+//           {ArabicCategories.map((category, index) => (
+//             <Box
+//               key={index}
+//               sx={{
+//                 width: "100%",
+//                 display: "flex",
+//                 flexDirection: "column",
+//                 alignItems: "center",
+//               }}
+//             >
+//               <Box
+//                 sx={{
+//                   width: "100%",
+//                   height: "250px",
+//                   backgroundImage: `url(${category.backgroundImage})`,
+//                   backgroundRepeat: "no-repeat",
+//                   backgroundPosition: "center",
+//                   backgroundSize: "cover",
+//                   zIndex: 1,
+//                   display: "flex",
+//                   justifyContent: "center",
+//                   alignItems: "center",
+//                   marginBottom: "10px",
+//                   marginTop: "5px",
+//                 }}
+//               >
+//                 <Button
+//                   sx={{
+//                     width: "50%",
+//                     height: "30px",
+//                     backgroundColor: "black",
+//                     opacity: "0.6",
+//                     color: "white",
+//                   }}
+//                   onClick={() => handleOpenCategory(index)}
+//                 >
+//                   {category.title}
+//                 </Button>
+//               </Box>
+//               <Collapse in={openCategory === index}>
+//                 <Box
+//                   display="flex"
+//                   flexDirection={"row"}
+//                   flexWrap="wrap"
+//                   justifyContent="space-between"
+//                   gap={1}
+//                 >
+//                   {category.items.map((item, idx) => (
+//                     <Card sx={{ width: "48%", height: "260px", display:"flex", flexDirection:"column" }} key={idx}>
+//                       <CardMedia
+//                         component="img"
+//                         image={item.images[0]} // Show the first image as the thumbnail
+//                         alt={item.title}
+//                         sx={{ height: "175px", objectFit: "cover" }}
+//                       />
+//                       <CardContent sx={{display:"flex", flexDirection:"column",backgroundColor:"black" , flexGrow:1, justifyContent:"center", alignItems:"center"}}>
+//                         <Typography sx={{color:"white"}}> {item.title}</Typography>
+//                         <Typography sx={{color:"wheat"}}> {item.price}</Typography>
+
+//                       </CardContent>
+//                     </Card>
+//                   ))}
+//                 </Box>
+//               </Collapse>
+//             </Box>
+//           ))}
+//         </Container>
+//       ) : (
+//         <p>perfect</p>
+//       )}
+//     </div>
+//   );
+// };

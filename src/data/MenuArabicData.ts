@@ -470,6 +470,27 @@ export const Shnitzel_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 export const Shnitzel_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031870/4_dndcv1.jpg";
 export const Shnitzel_5 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031868/6_wye2zv.jpg";
 export const Shnitzel_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730031869/3_ztskjm.jpg";
+
+// Tortilla------------------------------------------------------------------------------------------------------------
+// Tortilla kebap
+export const TortillaKebapMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455859/Kebap_Main_n8n6hc.jpg";
+export const TortillaKebap_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455858/2_hfq5ty.jpg";
+export const TortillaKebap_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455858/3_lsh3df.jpg";
+// Tortilla Chicken
+export const TortillaChickenMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455859/main_a7wfei.jpg";
+export const TortillaChicken_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455858/1_bnjape.jpg";
+export const TortillaChicken_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455858/2_cmrkhg.jpg";
+// Tortilla Chicken Mushrooms
+export const TortillaKremaMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455857/1_e9pubn.jpg";
+export const TortillaKrema_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455857/2_gh6vhp.jpg";
+export const TortillaKrema_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455857/main_p7lrqb.jpg";
+
+// Tortilla Chicken Chesse
+export const TortillaChesseMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455861/main_ju4ken.jpg";
+export const TortillaChesse_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455860/2_vnmipg.jpg";
+export const TortillaChesse_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730455860/1_mwqpzk.jpg";
+
+
 // Drinks------------------------------------------------------------------------------------------------------------------
 //SoftDrinks
 export const cocaCola = "https://res.cloudinary.com/dlubjzies/image/upload/v1730071399/cocacola_kfxvbv.jpg";
@@ -602,19 +623,19 @@ export const ArabicCategories: Category[] = [
     title: "رول التورتيلا",
     items: [
       {
-        title: "رول فيليه دجاج", images: [Soon],
-        price: "35₪"
-      },
-      {
-        title: "رول  كباب", images: [Soon],
+        title: "رول كباب", images: [TortillaKebapMain,TortillaKebap_1,TortillaKebap_2 ],
         price: "38₪"
       },
       {
-        title: "فيليه دجاج بالجبنة", images: [Soon],
+        title: "رول فيليه دجاج", images: [TortillaChickenMain,TortillaChicken_1,TortillaChicken_2],
         price: "35₪"
       },
       {
-        title: "فيليه دجاج بالفقع", images: [Soon],
+        title: "فيليه دجاج بالجبنة", images: [TortillaChesseMain,TortillaChesse_1,TortillaChesse_2],
+        price: "35₪"
+      },
+      {
+        title: "فيليه دجاج بالفقع",images: [TortillaKremaMain,TortillaKrema_1,TortillaKrema_2],
         price: "35₪"
       },
       {
