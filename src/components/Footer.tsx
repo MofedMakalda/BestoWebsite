@@ -18,6 +18,7 @@ const Footer = () => {
         <LanguageIcon sx={{fontSize:"20px", color:"black"}} />
         </IconButton>   
     </Box>
+    
     </Box>
   )
 }
