@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <Box sx={{display:"flex", flexDirection:"column", alignItems:"center"}}> 
      <Typography sx={{fontSize:"13px"}}>Created By</Typography>   
-     <Typography sx={{fontSize:"14px", fontFamily:"initial", fontWeight:"bold"}}>Mofed Makalda</Typography>
+     <a href='https://mofedprofile.netlify.app' >
+      <Typography sx={{fontSize:"14px", fontFamily:"initial", fontWeight:"bold", color:"black"}}>Mofed Makalda</Typography>
+     </a>
     <Box sx={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
         <IconButton  onClick={() => window.open('https://www.instagram.com/mofedmk', '_blank')} aria-label="Instagram"
         >
