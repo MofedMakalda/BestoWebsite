@@ -711,47 +711,47 @@ export const ArabicDrinkCategories: MainCategory[] = [
           {
             title: "كولا",
             images: [cocaCola],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "كولا زيرو",
             images: [zero],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "سبرايت",
             images: [sprite],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "فانتا",
             images: [fanta],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "اكس ال",
             images: [XL],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "اكس ال 10",
             images: [XL_Ten],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "بلو دي",
             images: [bluDay],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "برتقال",
             images: [Orange],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "عنب",
             images: [grapes],
-            price: "15₪"
+            price: "7₪"
           }
         ]
       },

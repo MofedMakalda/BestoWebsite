@@ -696,47 +696,47 @@ export const EnglishDrinkCategories: MainCategory[] = [
           {
             title: "Coca Cola",
             images: [cocaCola],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "Coca Zero ",
             images: [zero],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "Sprite",
             images: [sprite],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "Fanta",
             images: [fanta],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "XL",
             images: [XL],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "XL-Ten",
             images: [XL_Ten],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "Blu Day",
             images: [bluDay],
-            price: "15₪"
+            price: "5₪"
           },
           {
             title: "Orange",
             images: [Orange],
-            price: "15₪"
+            price: "7₪"
           },
           {
             title: "grapes",
             images: [grapes],
-            price: "15₪"
+            price: "7₪"
           }
         ]
       },
