@@ -618,11 +618,11 @@ export const EnglishCategories: Category[] = [
       },
       {
         title: "Cheese chick fillet", images: [TortillaChesseMain,TortillaChesse_1,TortillaChesse_2],
-        price: "35₪"
+        price: "42₪"
       },
       {
         title: "Mushroom chick fillet", images: [TortillaKremaMain,TortillaKrema_1,TortillaKrema_2],
-        price: "35₪"
+        price: "42₪"
       },
       {
         title: "Shnitzel roll", images: [Soon],

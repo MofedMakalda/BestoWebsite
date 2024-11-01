@@ -632,11 +632,11 @@ export const ArabicCategories: Category[] = [
       },
       {
         title: "فيليه دجاج بالجبنة", images: [TortillaChesseMain,TortillaChesse_1,TortillaChesse_2],
-        price: "35₪"
+        price: "42₪"
       },
       {
         title: "فيليه دجاج بالفقع",images: [TortillaKremaMain,TortillaKrema_1,TortillaKrema_2],
-        price: "35₪"
+        price: "42₪"
       },
       {
         title: "رول شنيتسل", images: [Soon],
