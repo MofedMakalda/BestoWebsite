@@ -313,7 +313,7 @@ import one from "../assets/1.jpeg"
 const LandingPageArabic = () => {
   return (
    <Box>
-    <img src={one} style={{width:"450px"}}/>
+    <img src={one} style={{width:"100%"}}/>
    </Box>
   )
 }
