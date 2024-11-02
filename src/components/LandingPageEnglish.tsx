@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import { 
-  Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton 
+  Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton, 
+  duration
 } from "@mui/material";
 import { Icons } from "./icons";
 import { Header } from "./Header";
@@ -10,6 +11,7 @@ import { EnglishCategories, EnglishDrinkCategories } from "../data/MenuEnglishDa
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Footer from "./Footer";
+import { MotionButton } from "./MotionComponents";
 
 const LandingPageEnglish: React.FC = () => {
 
@@ -85,7 +87,10 @@ const LandingPageEnglish: React.FC = () => {
                justifyContent: "center",
              }}
            >
-             <Button
+             <MotionButton
+                initial={{opacity:0.4, scale:0.1 }}
+                animate={{opacity:1, scale:1 }}
+                transition={{duration:"0.9"}}
                onClick={() => handleCategoryClick(index)}
                variant="contained"
                sx={{
@@ -104,7 +109,7 @@ const LandingPageEnglish: React.FC = () => {
                }}
              >
                <Typography variant="h6">{category.title}</Typography>
-             </Button>
+             </MotionButton>
            </div>
             <Collapse in={openCategory === index}>
               <Box display="flex" flexWrap="wrap" justifyContent="space-between">

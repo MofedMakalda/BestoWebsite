@@ -9,6 +9,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArabicCategories, ArabicDrinkCategories } from "../data/MenuArabicData";
 import Footer from "./Footer";
+import { MotionButton, MotionTypography } from "./MotionComponents";
 
 const LandingPageEnglish: React.FC = () => {
 //For Drinks Category
@@ -79,10 +80,13 @@ const LandingPageEnglish: React.FC = () => {
                justifyContent: "center",
              }}
            >
-             <Button
-               onClick={() => handleCategoryClick(index)}
-               variant="contained"
-               sx={{
+             <MotionButton
+              initial={{opacity:0.4, scale:0.1 }}
+              animate={{opacity:1, scale:1 }}
+              transition={{duration:"0.9"}}
+              onClick={() => handleCategoryClick(index)}
+              variant="contained"
+              sx={{
                  zIndex: 1,
                  position:"absolute",
                  width:"250px",
@@ -97,7 +101,7 @@ const LandingPageEnglish: React.FC = () => {
                }}
              >
                <Typography variant="h6">{category.title}</Typography>
-             </Button>
+             </MotionButton>
            </div>
             <Collapse in={openCategory === index}>
               <Box display="flex" flexWrap="wrap" justifyContent="space-between">
