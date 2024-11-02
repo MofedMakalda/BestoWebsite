@@ -443,6 +443,12 @@ export const Smash200_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 // SmashBurger-300g 
 export const Smash300Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048928/MainSmash360_pqplmq.jpg";
 export const Smash300_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048926/8_f9zofw.jpg";
+// Bestorger
+export const BestorgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/Main_swwpjg.jpg";
+export const Bestorger_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/6_hywyy9.jpg";
+export const Bestorger_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/1_akhurm.jpg";
+export const Bestorger_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/2_wzcb8z.jpg";
+export const Bestorger_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/3_bld7ly.jpg";
 
 
 // Sandwiches------------------------------------------------------------------------------------------------------------
@@ -512,6 +518,7 @@ export interface MenuItem {
   images: string[];
   price:string;
   description?:string;
+  chesse?:string;
 }
 
 export interface Category {
@@ -544,33 +551,40 @@ export const ArabicCategories: Category[] = [
     title: "برچر ",
     items: [
       {
-        title: "تشيز برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
-        price: "40₪"
+        title: "كلاسيك برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
+        price: "38₪",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
-        title: "تشيز برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
-        price: "55₪"
+        title: "كلاسيك برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
+        price: "53₪",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
         title: "سماش  برچر 200 غرام", images: [Smash200Main, Smash200_1,Smash200_2,],
-        price: "55₪"
+        price: "45₪",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
         title: "سماش  برچر 300 غرام", images: [Smash300Main,Smash300_1 ],
-        price: "60₪"
+        price: "50₪",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
         title: "برچر بيستو", images: [mushroomBurgerMain, mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4],
         price: "55₪",
-        description:"(بالفقع والكريما)"
+        description:"(بالفقع والكريما)",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
-        title: "برچر دجاج مقرمش", images: [Soon],
-        price: ""
+        title: "بيستورچو", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
+        price: "50₪",
+        chesse:"اضافة الجبنة ₪5"
       },
       {
         title: "برچر شنيتزل", images: [shnitselBurgerMain, shnetselBurger1, shnetselBurger2, shnetselBurger3, shnetselBurger4, shnetselBurger5, shnetselBurger6],
-        price: "38₪"
+        price: "38₪",
+        chesse:"اضافة الجبنة ₪5"
       },
     ],
     backgroundImage: burgerBg,

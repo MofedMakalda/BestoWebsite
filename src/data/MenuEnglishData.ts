@@ -440,6 +440,12 @@ export const Smash200_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v17
 // SmashBurger-320g 
 export const Smash300Main = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048928/MainSmash360_pqplmq.jpg";
 export const Smash300_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730048926/8_f9zofw.jpg";
+// Bestorger
+export const BestorgerMain = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/Main_swwpjg.jpg";
+export const Bestorger_1 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/6_hywyy9.jpg";
+export const Bestorger_2 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/1_akhurm.jpg";
+export const Bestorger_3 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/2_wzcb8z.jpg";
+export const Bestorger_4 = "https://res.cloudinary.com/dlubjzies/image/upload/v1730560627/3_bld7ly.jpg";
 
 
 // Sandwiches------------------------------------------------------------------------------------------------------------
@@ -509,6 +515,7 @@ export interface MenuItem {
   images: string[];
   price:string;
   description?:string;
+  chesse?:string;
   
 }
 
@@ -542,14 +549,15 @@ export const EnglishCategories: Category[] = [
           mushroomBurger4,
         ],
         price: "55₪",
-        description:"(Cream & Mushrooms)"
+        description:"(Cream & Mushrooms)",
+        chesse:"Chesse Added 5₪"
       },
-      { title: "Cheese Burger 160g", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4], price: "40₪" },
-      { title: "Cheese Burger 320g", images: [burger320Main, burger320_1, burger320_2, burger320_3],price: "55₪" },
-      { title: "Smash Burger 200g", images: [Smash200Main, Smash200_1,Smash200_2,],price: "55₪"},
-      { title: "Smash Burger 300g", images: [Smash300Main,Smash300_1 ], price:"60₪" },
-      { title: "Crispy chicken burger", images: [Soon], price:"" },
-      {title: "Shnitzel burger", images: [shnitselBurgerMain,
+      { title: "Classic Burger 160g", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4], price: "38₪", chesse:"Chesse Added 5₪" },
+      { title: "Classic Burger 320g", images: [burger320Main, burger320_1, burger320_2, burger320_3],price: "53₪",chesse:"Chesse Added 5₪" },
+      { title: "Smash Burger 200g", images: [Smash200Main, Smash200_1,Smash200_2,],price: "45₪",chesse:"Chesse Added 5₪"},
+      { title: "Smash Burger 300g", images: [Smash300Main,Smash300_1 ], price:"50₪", chesse:"Chesse Added 5₪" },
+      { title: "Bestorger", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4], price:"50₪",chesse:"Chesse Added 5₪" },
+      {title: "Shnitzel burger", images: [shnitselBurgerMain,
           shnetselBurger1,
           shnetselBurger2,
           shnetselBurger3,
@@ -557,7 +565,8 @@ export const EnglishCategories: Category[] = [
           shnetselBurger5,
           shnetselBurger6,
         ],
-        price: "38₪"
+        price: "38₪",
+        chesse:"Chesse Added 5₪"
       },
     ],
     backgroundImage: burgerBg,
