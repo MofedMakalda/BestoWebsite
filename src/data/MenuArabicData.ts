@@ -400,7 +400,7 @@
 // ];
 //----------------------------------------------------------------------------------------------
 // last Data
-
+//---------------------------------------------------------------------------------------------------------------
 export const specialBg = "https://res.cloudinary.com/dlubjzies/image/upload/v1729535340/special_bxhpbl.jpg";
 export const burgerBg = "https://res.cloudinary.com/dlubjzies/image/upload/v1729535336/burger_fnedov.jpg";
 export const drinksBg = "https://res.cloudinary.com/dlubjzies/image/upload/v1729535337/drink_tgvp1a.jpg";
@@ -553,38 +553,38 @@ export const ArabicCategories: Category[] = [
       {
         title: "كلاسيك برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
         price: "38₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "كلاسيك برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
         price: "53₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "سماش  برچر 200 غرام", images: [Smash200Main, Smash200_1,Smash200_2,],
         price: "45₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "سماش  برچر 300 غرام", images: [Smash300Main,Smash300_1 ],
         price: "50₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "برچر بيستو", images: [mushroomBurgerMain, mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4],
         price: "55₪",
         description:"(بالفقع والكريما)",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "بيستورچو", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
         price: "50₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
       {
         title: "برچر شنيتزل", images: [shnitselBurgerMain, shnetselBurger1, shnetselBurger2, shnetselBurger3, shnetselBurger4, shnetselBurger5, shnetselBurger6],
         price: "38₪",
-        chesse:"اضافة الجبنة ₪5"
+        chesse:"جبنة تشيدر + ₪5"
       },
     ],
     backgroundImage: burgerBg,
