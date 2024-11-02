@@ -577,7 +577,7 @@ export const ArabicCategories: Category[] = [
         chesse:"جبنة تشيدر + ₪5"
       },
       {
-        title: "بيستورچو", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
+        title: "بيستورچر ", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
         price: "50₪",
         chesse:"جبنة تشيدر + ₪5"
       },
