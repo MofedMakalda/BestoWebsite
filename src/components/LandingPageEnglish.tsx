@@ -321,15 +321,15 @@
 import React, { useState } from "react";
 import { 
   Container, Typography, Card, CardMedia, CardContent, Collapse, Button, Box, Dialog, DialogContent, IconButton, 
-  duration
+  
 } from "@mui/material";
-import { Icons } from "./icons";
+
 import { Header } from "./Header";
 import { EnglishCategories, EnglishDrinkCategories } from "../data/MenuEnglishData";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Footer from "./Footer";
-import { MotionBox, MotionButton } from "./MotionComponents";
+import {  MotionButton } from "./MotionComponents";
 import { keyframes } from "@emotion/react";
 
 const scaleUp = keyframes`

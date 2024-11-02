@@ -307,7 +307,7 @@
 
 
 import { Box } from '@mui/material'
-import React from 'react'
+
 import one from "../assets/1.jpeg"
 
 const LandingPageArabic = () => {
