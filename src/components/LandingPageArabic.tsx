@@ -305,8 +305,8 @@ const LandingPageEnglish: React.FC = () => {
                         >
                           {item.title}
                           <Typography sx={{fontSize:"12px"}}>{item.description}</Typography>
-                          <Typography sx={{fontSize:"11px", color:"orange"}}>{item.chesse}</Typography>
                         </Typography>
+                        <Typography sx={{fontSize:"11px", color:"orange"}}>{item.chesse}</Typography>
                         <Typography
                           sx={{
                             fontWeight: "bold",
