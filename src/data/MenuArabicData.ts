@@ -552,39 +552,39 @@ export const ArabicCategories: Category[] = [
     items: [
       {
         title: "كلاسيك برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
-        price: "38₪",
-        chesse:"جبنة تشيدر + ₪5"
+        price: "43₪",
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "كلاسيك برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
-        price: "53₪",
-        chesse:"جبنة تشيدر + ₪5"
+        price: "56₪",
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "سماش  برچر 200 غرام", images: [Smash200Main, Smash200_1,Smash200_2,],
         price: "45₪",
-        chesse:"جبنة تشيدر + ₪5"
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "سماش  برچر 300 غرام", images: [Smash300Main,Smash300_1 ],
         price: "50₪",
-        chesse:"جبنة تشيدر + ₪5"
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "برچر بيستو", images: [mushroomBurgerMain, mushroomBurger1, mushroomBurger2, mushroomBurger3, mushroomBurger4],
         price: "55₪",
         description:"(بالفقع والكريما)",
-        chesse:"جبنة تشيدر + ₪5"
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "بيستورچر ", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
         price: "50₪",
-        chesse:"جبنة تشيدر + ₪5"
+        chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "برچر شنيتزل", images: [shnitselBurgerMain, shnetselBurger1, shnetselBurger2, shnetselBurger3, shnetselBurger4, shnetselBurger5, shnetselBurger6],
         price: "38₪",
-        chesse:"جبنة تشيدر + ₪5"
+        chesse:"اضافة تشيدر  ₪7"
       },
     ],
     backgroundImage: burgerBg,
