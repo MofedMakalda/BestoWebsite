@@ -552,12 +552,12 @@ export const ArabicCategories: Category[] = [
     items: [
       {
         title: "كلاسيك برچر 160 غرام", images: [burger160Main, burger160_1, burger160_2, burger160_3, burger160_4],
-        price: "43₪",
+        price: "42₪",
         chesse:"اضافة تشيدر  ₪7"
       },
       {
         title: "كلاسيك برچر 320 غرام", images: [burger320Main, burger320_1, burger320_2, burger320_3],
-        price: "56₪",
+        price: "60₪",
         chesse:"اضافة تشيدر  ₪7"
       },
       {
@@ -567,7 +567,7 @@ export const ArabicCategories: Category[] = [
       },
       {
         title: "سماش  برچر 300 غرام", images: [Smash300Main,Smash300_1 ],
-        price: "50₪",
+        price: "55₪",
         chesse:"اضافة تشيدر  ₪7"
       },
       {
@@ -578,7 +578,7 @@ export const ArabicCategories: Category[] = [
       },
       {
         title: "بيستورچر ", images: [BestorgerMain, Bestorger_1,Bestorger_2, Bestorger_3, Bestorger_4],
-        price: "50₪",
+        price: "55₪",
         chesse:"اضافة تشيدر  ₪7"
       },
       {

@@ -628,13 +628,13 @@ export const EnglishCategories: Category[] = [
           burger160_3,
           burger160_4,
         ],
-        price: "43₪",
+        price: "42₪",
         chesse: "Cheddar cheese +7₪",
       },
       {
         title: "Classic Burger 320g",
         images: [burger320Main, burger320_1, burger320_2, burger320_3],
-        price: "56₪",
+        price: "60₪",
         chesse: "Cheddar cheese +7₪",
       },
       {
@@ -646,7 +646,7 @@ export const EnglishCategories: Category[] = [
       {
         title: "Smash Burger 300g",
         images: [Smash300Main, Smash300_1],
-        price: "50₪",
+        price: "55₪",
         chesse: "Cheddar cheese +7₪",
       },
       {
@@ -658,7 +658,7 @@ export const EnglishCategories: Category[] = [
           Bestorger_3,
           Bestorger_4,
         ],
-        price: "50₪",
+        price: "55₪",
         chesse: "Cheddar cheese +7₪",
       },
       {
