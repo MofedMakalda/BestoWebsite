@@ -595,15 +595,15 @@ export const ArabicCategories: Category[] = [
     items: [
       {
         title: "ساندويتش شنيتسل", images: [ShnitzelMain, Shnitzel_1, Shnitzel_2, Shnitzel_3, Shnitzel_4, Shnitzel_5],
-        price: "38₪"
+        price: "38/42₪"
       },
       {
         title: "ساندويتش الكباب", images: [KebapMain, Kebap_2, Kebap_3, Kebap_4, Kebap_5, Kebap_6, Kebap_7, Kebap_8],
-        price: "40₪"
+        price: "43/46₪"
       },
       {
         title: "ساندويتش فيليه الدجاج", images: [ChickenMain, Chicken_1, Chicken_2, Chicken_3, Chicken_4, Chicken_5, Chicken_6],
-        price: "38₪"
+        price: "38/42₪"
       },
       {
         title: "ساندويتش البيض", images: [Soon],
@@ -638,11 +638,11 @@ export const ArabicCategories: Category[] = [
     items: [
       {
         title: "رول كباب", images: [TortillaKebapMain,TortillaKebap_1,TortillaKebap_2 ],
-        price: "38₪"
+        price: "43₪"
       },
       {
         title: "رول فيليه دجاج", images: [TortillaChickenMain,TortillaChicken_1,TortillaChicken_2],
-        price: "35₪"
+        price: "38₪"
       },
       {
         title: "فيليه دجاج بالجبنة", images: [TortillaChesseMain,TortillaChesse_1,TortillaChesse_2],
@@ -654,7 +654,7 @@ export const ArabicCategories: Category[] = [
       },
       {
         title: "رول شنيتسل", images: [Soon],
-        price: "35₪"
+        price: "38₪"
       },
 
     ],

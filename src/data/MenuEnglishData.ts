@@ -692,7 +692,7 @@ export const EnglishCategories: Category[] = [
           Shnitzel_4,
           Shnitzel_5,
         ],
-        price: "38₪",
+        price: "38/42₪",
       },
       {
         title: "Kebap Sandwich",
@@ -706,7 +706,7 @@ export const EnglishCategories: Category[] = [
           Kebap_7,
           Kebap_8,
         ],
-        price: "40₪",
+        price: "43/46₪",
       },
       {
         title: "Chick fillet Sandwich",
@@ -719,7 +719,7 @@ export const EnglishCategories: Category[] = [
           Chicken_5,
           Chicken_6,
         ],
-        price: "38₪",
+        price: "38/42₪",
       },
       {
         title: "Omlet Sandwich",
@@ -760,12 +760,12 @@ export const EnglishCategories: Category[] = [
       {
         title: "Kebap roll",
         images: [TortillaKebapMain, TortillaKebap_1, TortillaKebap_2],
-        price: "38₪",
+        price: "43₪",
       },
       {
         title: "Chick fillet",
         images: [TortillaChickenMain, TortillaChicken_1, TortillaChicken_2],
-        price: "35₪",
+        price: "38₪",
       },
       {
         title: "Cheese chick fillet",
@@ -780,7 +780,7 @@ export const EnglishCategories: Category[] = [
       {
         title: "Shnitzel roll",
         images: [Soon],
-        price: "35₪",
+        price: "38₪",
       },
     ],
     backgroundImage: Tortilla,
